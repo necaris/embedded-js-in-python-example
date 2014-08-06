@@ -1,0 +1,148 @@
+/** Basic styles */
+body {
+    font-family: "Merriweather", serif !important;
+    font-size: 20px;
+    margin: 0.5em;
+    background: #f8f8ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    padding: 0.1em;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 0.1em;
+    margin: 0.1em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+div.center-container {
+    max-width: 900px;
+    min-width: 30%;
+    margin: 1em auto;
+}
+
+div.hero {
+    max-width: 768px;
+    min-width: 55%;
+    margin: 0.25em auto;
+    padding: 0.25em;
+
+    text-align: center;
+
+    background-color: #6a00d4;
+    color: #ffffff;
+    border-radius: 0.75em;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin: 0.16em 0;
+    padding: 0.16em;
+}
+
+p.announcement {
+    font-size: 1.25em;
+}
+
+
+div.pure-g [class *="pure-u"] {
+    font-family: "Merriweather", serif;
+}
+
+input, button {
+    font-family: "Merriweather", serif;
+}
+
+ul.guest-list {
+    padding: 0.25em 0;
+    margin: 0 0.25em;
+    list-style-type: none;
+}
+
+.guest-list li {
+    padding: 0.2em 0.25em;
+    margin: 0.2em 0;
+    list-style-type: none;
+}
+
+span.guest-name {
+    display: block;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+span.guest-twitter:before {
+    content: "@";
+    color: #6a00d4;
+}
+
+span.guest-twitter {
+    display: block;
+    color: #6a00d4;
+}
+
+span.guest-twitter a {
+    color: #6a00d4;
+}
+
+span.guest-signed-up-at {
+    display: block;
+    float: right;
+    font-style: italic;
+    font-size: 95%;
+    color: #aaa;
+}
+
+.signup-form {
+    padding: 0.25em;
+    margin: 0;
+}
+
+.loading-notification {
+    opacity: 1;
+    transition: opacity 1s ease-in-out, background-color 1s linear;
+    display: block;
+    padding: 0.1em;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.1em;
+}
+
+.loading-pending {
+    background-color: yellow;
+    color: #999;
+}
+
+.loading-success {
+    background-color: green;
+}
+
+.loading-error {
+    background-color: red;
+}
+
+.hidden {
+    opacity: 0;
+}

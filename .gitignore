@@ -1,0 +1,6 @@
+.envrc
+.direnv
+presentation
+*.sqlite
+*.egg-info
+*~

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}{{ rendered_content }}{% endblock content %}
+
+{% block scripts %}
+<script src="/static/js/react-with-addons-0.11.1.js"></script>
+<script src="/static/js/reqwest.js"></script>
+<script src="/static/js/moment.min.js"></script>
+<script src="/static/js/app.js"></script>
+<script type="text/javascript">
+  var initialData = {{ initial_data|to_json }};
+  React.renderComponent(MainComponent(initialData),
+      document.getElementsByTagName("body")[0]);
+</script>
+{% endblock scripts %}

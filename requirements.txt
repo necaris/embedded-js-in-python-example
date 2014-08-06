@@ -1,0 +1,8 @@
+Jinja2==2.7.3
+SQLAlchemy==0.9.7
+pyramid==1.5.1
+itsdangerous==0.24
+pyramid-debugtoolbar==2.1
+pyramid-jinja2==2.3.3
+pyramid-tm==0.7
+PyV8
