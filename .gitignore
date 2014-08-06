@@ -4,3 +4,4 @@ presentation
 *.sqlite
 *.egg-info
 *~
+*__pycache__*
