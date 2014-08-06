@@ -6,14 +6,14 @@ Uses [Pure CSS](http://purecss.io) and [React](http://facebook.github.io/react) 
 
 ## Getting Started
 
-    ``` bash
-    $ pip install -r requirements.txt
-    # note that PyV8 may be difficult to install -- get a binary from
-    # https://github.com/emmetio/pyv8-binaries if you have trouble
-    $ cd <directory containing this file>
-    $ $VIRTUAL_ENV/bin/python setup.py develop
-	$ $VIRTUAL_ENV/bin/initialize_guestbook_db development.ini
-    # note that you can't use the Pyramid default webserver here because
-    # it interacts weirdly with PyV8 -- use `wsgiref.simple_server` instead
-	$ $VIRTUAL_ENV/bin/python wsgi.py
-    ```
+``` bash
+$ pip install -r requirements.txt
+# note that PyV8 may be difficult to install -- get a binary from
+# https://github.com/emmetio/pyv8-binaries if you have trouble
+$ cd <directory containing this file>
+$ $VIRTUAL_ENV/bin/python setup.py develop
+$ $VIRTUAL_ENV/bin/initialize_guestbook_db development.ini
+# note that you can't use the Pyramid default webserver here because
+# it interacts weirdly with PyV8 -- use `wsgiref.simple_server` instead
+$ $VIRTUAL_ENV/bin/python wsgi.py
+```
